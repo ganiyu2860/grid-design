@@ -1,0 +1,207 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: palegreen;
+  width: 100vw;
+  height: 50vw;
+ 
+}
+.part1{
+  background-color: black;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px 0px 0px 20px;
+}
+.part2{
+  background-color: orange;
+  width: 300px;
+  height: 500px;
+}
+.part3{
+  background-color: rgb(247, 207, 134);
+  width: 300px;
+  height: 500px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.combination{ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.rec{
+  background-color: white;
+  width: 800px;
+  height: 380px;
+  position: relative;
+  left: 280px;
+  bottom: 440px;
+  /* border-radius: 20px 20px 20px 20px; */
+  border-top: black 7px solid;
+}
+ 
+.sub-rec{
+  width: 760px;
+  height: 250px;
+  background-color: whitesmoke;
+  position: relative;
+  left:20px ;
+  top: 25px;
+}
+
+.impact{
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left:5px ;
+  top: 5px;
+}
+
+.dahana{
+  font-weight: lighter;
+  font-size: 10px;
+}
+  /* img{
+  width: 2px;
+  height: 2px;
+  position: relative;
+  left: 10px;
+ } */ */
+ .sub-rec h3{
+   color: red;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 28px;
+   padding:65px 0px 0px 50px ;
+ }
+ .sub-rec h3{
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding:40px 0px 0px 50px ;
+}
+.sub-rec p{
+  color: rgb(202, 68, 68);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding:2px 0px 0px 50px ;
+}
+
+.investors{
+  background-color: orangered;
+  width: 150px;
+  height: 30px;
+  color: white;
+  padding: 5px 0px 0px 25px;
+  border-radius: 15px;
+  position: relative;
+  top: 15px;
+  left: 50px;
+}
+.investors a:hover{
+  /* background: ; */
+  color: white;
+}
+
+.startup{
+  background-color: white; 
+  width: 150px;
+  height: 30px;
+  color: black;
+  padding: 5px 0px 0px 25px;
+  border-radius: 15px;
+  position: relative;
+  top: -15px;
+  left: 210px;
+}
+.startup a:hover {
+  color: red;  
+}
+
+.helped{
+  color: red;
+  position: relative;
+  left: 65px;
+  top: 50px;
+}
+
+ img{
+  display:flex;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 25px;
+  left: 350px; 
+}
+
+/* object{
+  display:flex;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -15px;
+  left: 420px; 
+} */
+  embed{
+  display:flex;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 0px;
+  left: 0px;  
+}
+.listed li{
+  display: inline;
+  padding: 0px;
+  margin-left: 15px;
+  font-size: 10px;
+  position: relative;
+  left: 470px;
+  top: 0px;
+}
+
+.circle img{
+  background-color: rgb(243, 243, 247);
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  position: relative;
+  left: 500px;
+  top: -250px;
+}
+ .mini-circle img{
+  background-color: rgb(178, 178, 218);
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  position: relative;
+  left: 419px;
+  top: -370px;
+}  
+
+.image{
+display:flex;
+}
+
+.image.a{
+  margin: 100px;
+}
+.image.b{
+  margin: 100px;
+}
+.image.c{
+  position: relative;
+  left: 100px;
+}
+
+.image.d{
+  position: relative;
+  left: 100px;
+}
+
+
+
